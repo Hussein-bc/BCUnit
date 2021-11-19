@@ -2,44 +2,47 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v3.1": {
-      "Application.SDK/1.0.0": {
+      "BCUnit.Engine/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "BCUnit.Framework.SDK": "1.0.0"
+        },
         "compile": {
-          "bin/placeholder/Application.SDK.dll": {}
+          "bin/placeholder/BCUnit.Engine.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Application.SDK.dll": {}
+          "bin/placeholder/BCUnit.Engine.dll": {}
         }
       },
-      "TestAttributes.SDK/1.0.0": {
+      "BCUnit.Framework.SDK/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "compile": {
-          "bin/placeholder/TestAttributes.SDK.dll": {}
+          "bin/placeholder/BCUnit.Framework.SDK.dll": {}
         },
         "runtime": {
-          "bin/placeholder/TestAttributes.SDK.dll": {}
+          "bin/placeholder/BCUnit.Framework.SDK.dll": {}
         }
       }
     }
   },
   "libraries": {
-    "Application.SDK/1.0.0": {
+    "BCUnit.Engine/1.0.0": {
       "type": "project",
-      "path": "../Application.SDK/Application.SDK.csproj",
-      "msbuildProject": "../Application.SDK/Application.SDK.csproj"
+      "path": "../BCUnit.Engine/BCUnit.Engine.csproj",
+      "msbuildProject": "../BCUnit.Engine/BCUnit.Engine.csproj"
     },
-    "TestAttributes.SDK/1.0.0": {
+    "BCUnit.Framework.SDK/1.0.0": {
       "type": "project",
-      "path": "../TestAttributes.SDK/TestAttributes.SDK.csproj",
-      "msbuildProject": "../TestAttributes.SDK/TestAttributes.SDK.csproj"
+      "path": "../BCUnit.Framework.SDK/BCUnit.Framework.SDK.csproj",
+      "msbuildProject": "../BCUnit.Framework.SDK/BCUnit.Framework.SDK.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "Application.SDK >= 1.0.0",
-      "TestAttributes.SDK >= 1.0.0"
+      "BCUnit.Engine >= 1.0.0",
+      "BCUnit.Framework.SDK >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -74,11 +77,11 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\jaffa\\source\\repos\\BCUnit\\Application.SDK\\Application.SDK.csproj": {
-              "projectPath": "C:\\Users\\jaffa\\source\\repos\\BCUnit\\Application.SDK\\Application.SDK.csproj"
+            "C:\\Users\\jaffa\\source\\repos\\BCUnit\\BCUnit.Engine\\BCUnit.Engine.csproj": {
+              "projectPath": "C:\\Users\\jaffa\\source\\repos\\BCUnit\\BCUnit.Engine\\BCUnit.Engine.csproj"
             },
-            "C:\\Users\\jaffa\\source\\repos\\BCUnit\\TestAttributes.SDK\\TestAttributes.SDK.csproj": {
-              "projectPath": "C:\\Users\\jaffa\\source\\repos\\BCUnit\\TestAttributes.SDK\\TestAttributes.SDK.csproj"
+            "C:\\Users\\jaffa\\source\\repos\\BCUnit\\BCUnit.Framework.SDK\\BCUnit.Framework.SDK.csproj": {
+              "projectPath": "C:\\Users\\jaffa\\source\\repos\\BCUnit\\BCUnit.Framework.SDK\\BCUnit.Framework.SDK.csproj"
             }
           }
         }

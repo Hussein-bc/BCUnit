@@ -11,8 +11,8 @@ C:\Users\jaffa\source\repos\BCUnit\Application\obj\Debug\netcoreapp3.1\Applicati
 C:\Users\jaffa\source\repos\BCUnit\Application\obj\Debug\netcoreapp3.1\Application.dll
 C:\Users\jaffa\source\repos\BCUnit\Application\obj\Debug\netcoreapp3.1\Application.pdb
 C:\Users\jaffa\source\repos\BCUnit\Application\obj\Debug\netcoreapp3.1\Application.genruntimeconfig.cache
-C:\Users\jaffa\source\repos\BCUnit\Application\bin\Debug\netcoreapp3.1\Application.SDK.dll
-C:\Users\jaffa\source\repos\BCUnit\Application\bin\Debug\netcoreapp3.1\Application.SDK.pdb
 C:\Users\jaffa\source\repos\BCUnit\Application\obj\Debug\netcoreapp3.1\Application.csproj.AssemblyReference.cache
-C:\Users\jaffa\source\repos\BCUnit\Application\bin\Debug\netcoreapp3.1\TestAttributes.SDK.dll
-C:\Users\jaffa\source\repos\BCUnit\Application\bin\Debug\netcoreapp3.1\TestAttributes.SDK.pdb
+C:\Users\jaffa\source\repos\BCUnit\Application\bin\Debug\netcoreapp3.1\BCUnit.Framework.SDK.dll
+C:\Users\jaffa\source\repos\BCUnit\Application\bin\Debug\netcoreapp3.1\BCUnit.Framework.SDK.pdb
+C:\Users\jaffa\source\repos\BCUnit\Application\bin\Debug\netcoreapp3.1\BCUnit.Engine.dll
+C:\Users\jaffa\source\repos\BCUnit\Application\bin\Debug\netcoreapp3.1\BCUnit.Engine.pdb

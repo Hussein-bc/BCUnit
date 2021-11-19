@@ -6,8 +6,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Application.SDK\Application.SDK.csproj" />
-    <ProjectReference Include="..\TestAttributes.SDK\TestAttributes.SDK.csproj" />
+    <ProjectReference Include="..\BCUnit.Engine\BCUnit.Engine.csproj" />
+    <ProjectReference Include="..\BCUnit.Framework.SDK\BCUnit.Framework.SDK.csproj" />
   </ItemGroup>
 
 </Project>
