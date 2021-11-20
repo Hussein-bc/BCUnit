@@ -15,8 +15,14 @@
           "Application.dll": {}
         }
       },
+      "BCUnit.Assertions/1.0.0": {
+        "runtime": {
+          "BCUnit.Assertions.dll": {}
+        }
+      },
       "BCUnit.Engine/1.0.0": {
         "dependencies": {
+          "BCUnit.Assertions": "1.0.0",
           "BCUnit.Framework.SDK": "1.0.0"
         },
         "runtime": {
@@ -32,6 +38,11 @@
   },
   "libraries": {
     "Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BCUnit.Assertions/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

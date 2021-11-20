@@ -2,10 +2,21 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v3.1": {
+      "BCUnit.Assertions/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/BCUnit.Assertions.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BCUnit.Assertions.dll": {}
+        }
+      },
       "BCUnit.Engine/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
+          "BCUnit.Assertions": "1.0.0",
           "BCUnit.Framework.SDK": "1.0.0"
         },
         "compile": {
@@ -28,6 +39,11 @@
     }
   },
   "libraries": {
+    "BCUnit.Assertions/1.0.0": {
+      "type": "project",
+      "path": "../BCUnit.Assertions/BCUnit.Assertions.csproj",
+      "msbuildProject": "../BCUnit.Assertions/BCUnit.Assertions.csproj"
+    },
     "BCUnit.Engine/1.0.0": {
       "type": "project",
       "path": "../BCUnit.Engine/BCUnit.Engine.csproj",

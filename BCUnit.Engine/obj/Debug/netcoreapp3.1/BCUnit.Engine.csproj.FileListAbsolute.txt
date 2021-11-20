@@ -10,3 +10,6 @@ C:\Users\jaffa\source\repos\BCUnit\BCUnit.Engine\bin\Debug\netcoreapp3.1\BCUnit.
 C:\Users\jaffa\source\repos\BCUnit\BCUnit.Engine\bin\Debug\netcoreapp3.1\BCUnit.Framework.SDK.pdb
 C:\Users\jaffa\source\repos\BCUnit\BCUnit.Engine\obj\Debug\netcoreapp3.1\BCUnit.Engine.dll
 C:\Users\jaffa\source\repos\BCUnit\BCUnit.Engine\obj\Debug\netcoreapp3.1\BCUnit.Engine.pdb
+C:\Users\jaffa\source\repos\BCUnit\BCUnit.Engine\bin\Debug\netcoreapp3.1\BCUnit.Assertions.dll
+C:\Users\jaffa\source\repos\BCUnit\BCUnit.Engine\bin\Debug\netcoreapp3.1\BCUnit.Assertions.pdb
+C:\Users\jaffa\source\repos\BCUnit\BCUnit.Engine\obj\Debug\netcoreapp3.1\BCUnit.Engine.csproj.CopyComplete

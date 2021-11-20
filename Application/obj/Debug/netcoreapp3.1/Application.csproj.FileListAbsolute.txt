@@ -16,3 +16,5 @@ C:\Users\jaffa\source\repos\BCUnit\Application\bin\Debug\netcoreapp3.1\BCUnit.Fr
 C:\Users\jaffa\source\repos\BCUnit\Application\bin\Debug\netcoreapp3.1\BCUnit.Framework.SDK.pdb
 C:\Users\jaffa\source\repos\BCUnit\Application\bin\Debug\netcoreapp3.1\BCUnit.Engine.dll
 C:\Users\jaffa\source\repos\BCUnit\Application\bin\Debug\netcoreapp3.1\BCUnit.Engine.pdb
+C:\Users\jaffa\source\repos\BCUnit\Application\bin\Debug\netcoreapp3.1\BCUnit.Assertions.dll
+C:\Users\jaffa\source\repos\BCUnit\Application\bin\Debug\netcoreapp3.1\BCUnit.Assertions.pdb

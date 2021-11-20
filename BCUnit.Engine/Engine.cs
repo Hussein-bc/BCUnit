@@ -5,6 +5,8 @@ using System.IO;
 using System.Linq;
 using System.Reflection;
 using System.Text;
+using static BCUnit.Assertions.Assertion;
+
 
 namespace BCUnit.Engine
 {
@@ -105,7 +107,7 @@ namespace BCUnit.Engine
             if (testList != null) {
                 object instance = Activator.CreateInstance(type);
                 foreach (MethodInfo mInfo in testList) {
-                    Console.Write($"Engine is running on {mInfo.Name}() => ");
+                    Console.Write($"Engine is running on {mInfo.Name}() =>\n");
                     mInfo.Invoke(instance, new object[0]);
                 }
             }

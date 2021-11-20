@@ -2,7 +2,7 @@
 
 namespace TestingUser
 {
-    public class HasNoAttributes
+    public class Calculator
     {
         public int Add(int x, int y)
         {

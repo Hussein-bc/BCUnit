@@ -17,17 +17,14 @@ namespace Application {
 
             Engine engine = new Engine("extension");
             Console.WriteLine($"Engine found {engine.GetCount()} plugin(s)!");
+
             engine.PrintClassName();
+            Console.WriteLine();
             engine.MethodsParser();
 
 
 
         }
-
-
-
-
-        //reachearch how to print to the output window
 
 
 

@@ -2,6 +2,16 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v3.1": {
+      "BCUnit.Assertions/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/BCUnit.Assertions.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BCUnit.Assertions.dll": {}
+        }
+      },
       "BCUnit.Framework.SDK/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
@@ -15,6 +25,11 @@
     }
   },
   "libraries": {
+    "BCUnit.Assertions/1.0.0": {
+      "type": "project",
+      "path": "../BCUnit.Assertions/BCUnit.Assertions.csproj",
+      "msbuildProject": "../BCUnit.Assertions/BCUnit.Assertions.csproj"
+    },
     "BCUnit.Framework.SDK/1.0.0": {
       "type": "project",
       "path": "../BCUnit.Framework.SDK/BCUnit.Framework.SDK.csproj",
@@ -23,6 +38,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "BCUnit.Assertions >= 1.0.0",
       "BCUnit.Framework.SDK >= 1.0.0"
     ]
   },
@@ -58,6 +74,9 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
+            "C:\\Users\\jaffa\\source\\repos\\BCUnit\\BCUnit.Assertions\\BCUnit.Assertions.csproj": {
+              "projectPath": "C:\\Users\\jaffa\\source\\repos\\BCUnit\\BCUnit.Assertions\\BCUnit.Assertions.csproj"
+            },
             "C:\\Users\\jaffa\\source\\repos\\BCUnit\\BCUnit.Framework.SDK\\BCUnit.Framework.SDK.csproj": {
               "projectPath": "C:\\Users\\jaffa\\source\\repos\\BCUnit\\BCUnit.Framework.SDK\\BCUnit.Framework.SDK.csproj"
             }
