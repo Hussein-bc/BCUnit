@@ -48,8 +48,7 @@ namespace TestingUser
             int actual = 3;
             AssertNotEquals(expected, actual);
         }
-
-
+        
         [TestMethod]
         public void TestMethod4()
         {
@@ -67,6 +66,14 @@ namespace TestingUser
             int expected = 3;
             AssertEquals(expected, actual);
 
+        }
+        [TestMethod]
+        public void TestMethod6()
+        {
+            Console.WriteLine("Running method 6");
+            double expected = 5.4;
+            double actual = 3.2;
+            AssertNotEquals(expected, actual);
         }
 
 

@@ -38,6 +38,13 @@ namespace BCUnit.Assertions
 
             Console.WriteLine("PASS");
         }
+        public static void AssertNotEquals(double expected, double acutal)
+        {
+            if (expected == acutal)
+                Fail($"Expected: {expected}\n Actual: {acutal}");
+
+            Console.WriteLine("PASS");
+        }
 
 
         static public void Fail(String message)
